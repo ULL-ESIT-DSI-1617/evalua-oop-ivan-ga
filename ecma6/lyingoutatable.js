@@ -1,5 +1,5 @@
 var dt = require('./text-cell-e6.js')
-var dp = require('./underlined-cell-6.js')
+var dp = require('./underlined-cell-e6.js')
 var di = require('./r-text-cell-e6.js')
 var TextCell = dt.TextCell
 var UnderlinedCell = dp.UnderlinedCell

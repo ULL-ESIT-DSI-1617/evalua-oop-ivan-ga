@@ -1,12 +1,14 @@
-var TextCell = import('/.text-cell-e6.js')
+'use strict'
+var dp = require('./text-cell-e6.js')
+var TextCell = dp.TextCell
 
 
 class RTextCell extends TextCell{
   constructor(text) {
-        this.text = text;
+       super(text);
   }
 
-  draw() {
+  draw(width, height) {
     var result = [];
     for (var i = 0; i < height; i++) {
       var line = this.text[i] || "";
@@ -15,4 +17,8 @@ class RTextCell extends TextCell{
     return result;
   }
 
+}
+
+module.exports ={
+  RTextCell: RTextCell
 }

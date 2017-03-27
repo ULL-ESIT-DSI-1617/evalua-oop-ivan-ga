@@ -1,4 +1,4 @@
-
+'use strict'
 
 class TextCell{
 
@@ -16,7 +16,7 @@ class TextCell{
     return this.text.length;
   }
 
-  draw(){
+  draw(width, height){
     var result = [];
     for (var i = 0; i < height; i++) {
       var line = this.text[i] || "";
@@ -25,4 +25,8 @@ class TextCell{
     return result;
   }
 
+}
+
+module.exports = {
+  TextCell: TextCell
 }

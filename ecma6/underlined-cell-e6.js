@@ -1,4 +1,4 @@
-
+'use strict'
 class UnderlinedCell{
 
   constructor(inner){
@@ -18,4 +18,8 @@ class UnderlinedCell{
       .concat(["-".repeat(width)]);
   }
 
+}
+
+module.exports ={
+  UnderlinedCell: UnderlinedCell
 }
