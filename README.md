@@ -58,4 +58,4 @@ Mont Blanc     4808   Italy/France
 Vaalserberg    323    Netherlands  
 Denali         6168   United States
 ```
-[![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga)
+![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga)
