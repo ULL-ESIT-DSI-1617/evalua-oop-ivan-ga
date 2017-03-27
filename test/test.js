@@ -31,7 +31,9 @@ describe("drawIt", function() {
   })
 });
 
-var TextCell = dt.TextCell;
+
+var dp = require("../text-cell.js");
+var TextCell = dp.TextCell;
 var drawTable = dt.drawTable;
 
 function checkerboard() {

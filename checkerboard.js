@@ -1,5 +1,8 @@
+'use strict'
+
 var dt = require("./lyingoutatable.js");
-var TextCell = dt.TextCell;
+var dp = require("./text-cell.js");
+var TextCell = dp.TextCell;
 var drawTable = dt.drawTable;
 
 var rows = [0, 5].range( 
