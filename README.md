@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga)
+
 ## Eloquent JavaScript. Chapter 6: The Secret Life of Objects.  Section *Laying out a table*
 
 Forman parte de este ejemplo los ficheros:
@@ -57,5 +59,3 @@ Mount Fuji     3776   Japan
 Mont Blanc     4808   Italy/France 
 Vaalserberg    323    Netherlands  
 Denali         6168   United States
-```
-![Build Status](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga.svg?branch=master)](https://travis-ci.org/ULL-ESIT-DSI-1617/evalua-oop-ivan-ga)
